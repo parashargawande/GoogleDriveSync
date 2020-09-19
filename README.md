@@ -1,8 +1,9 @@
 # GoogleDriveSync
 
-A python script to track changes in the google drive using gooel drive api V3.
-This script creates the same folder structure in the local machine as it is in google drive.
-Script runs in loop and check for the changes and update the local structure according to the changes made in the drive.
+So here is the python script to track changes in the google drive and creates the 
+same folder structure in the local machine as it is in google drive using gooel drive api V3.
+As the google drive api provides the parent id for each file and folder. This scripts iterate through the parent ids and 
+create a tree structure in the local machine.It runs in loop and check for the changes and update the local structure according to the changes made in the drive.
 Point to note that this script does not fetch the whole file from the drive but instead creates the text file, 
 just to represent the folder structure.
 
