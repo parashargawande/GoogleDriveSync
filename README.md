@@ -12,7 +12,10 @@ Please add the credentials.json content to the script which stores the client se
 To get the credentials.json file follow the instructions for <a target='__blank' href='https://developers.google.com/drive/api/v3/quickstart/python'>Google Drive Api Quickstart</a>
 
 To fetch all the changes locally and delete the older folder structure call the script with forced flag.
-
 ```
 python script.py forced
+```
+To run the script
+```
+python script.py
 ```
